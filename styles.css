@@ -1,0 +1,66 @@
+body {
+    font-family: Roboto;
+    background-image: linear-gradient(45deg, #43c6ac, #d3e60d);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    margin: 0 auto;
+    width: auto;
+    display: table;
+    text-align: center;
+
+}
+
+#convert {
+    margin-top:2%;
+    background-color: #4331fb;
+ }
+
+ #clear {
+    margin-top:2%;
+     background-color: #751d1d;
+ }
+
+ #convert:hover {
+    background-color: #bcc768;
+ }
+
+ h1 {
+    font-family: sans-serif;
+    color: #042640;
+  }
+
+input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #f4a55a;
+    font-family: cursive, sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #ccc;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    olor: #ccc;  
+}
+
+:-ms-input-placeholder {  
+     color: #ccc;  
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: 5px;
+}
