@@ -1,6 +1,8 @@
 body {
     font-family: Roboto;
-    background-image: linear-gradient(45deg, #43c6ac, #d3e60d);
+    background-image: url(./img/estacoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,15 +18,19 @@ body {
 
 #convert {
     margin-top:2%;
-    background-color: #4331fb;
+    background-color: #6959CD;
  }
 
  #clear {
     margin-top:2%;
-     background-color: #751d1d;
+     background-color: #6959CD;
  }
 
  #convert:hover {
+    background-color: #bcc768;
+ }
+
+ #clear:hover {
     background-color: #bcc768;
  }
 
@@ -46,14 +52,6 @@ input {
     color: #ccc;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-    color: #ccc;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-    olor: #ccc;  
-}
-
 :-ms-input-placeholder {  
      color: #ccc;  
 }
@@ -63,4 +61,6 @@ button {
     font-size: 1.2em;
     color: #ffffff;
     margin: 5px;
+    height: 50px;
+    width: 100px;
 }
